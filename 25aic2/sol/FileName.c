@@ -186,10 +186,13 @@ int main()
     moveCursor(a, b);
     printBomb(0);
     g = 1;
-    a = 14, b = 10;
+    a = 14, b = 9;
     c = 0;
     h = 0;
     f = 0;//초기화
+    moveCursor(a, b);
+    printf(" ");
+    b++;
     while (g < 4)//반복
     {
         while (d < 4)//방향
@@ -199,6 +202,10 @@ int main()
                 Sleep(200);
                 moveCursor(a, b);
                 printf("*");
+                Sleep(100);
+                moveCursor(a, b);
+                printf(" ");
+
                 e++;
 
                 if (d == 0)//방향
@@ -241,6 +248,10 @@ int main()
                 Sleep(200);
                 moveCursor(a, b);
                 printf("*");
+                Sleep(100);
+                moveCursor(a, b);
+                printf(" ");
+
                 e++;
 
                 if (d == 0)//방향
@@ -275,6 +286,10 @@ int main()
                 Sleep(200);
                 moveCursor(a, b);
                 printf("*");
+                Sleep(100);
+                moveCursor(a, b);
+                printf(" ");
+
                 e++;
 
                 if (d == 0)//방향
@@ -309,6 +324,10 @@ int main()
                 Sleep(200);
                 moveCursor(a, b);
                 printf("*");
+                Sleep(100);
+                moveCursor(a, b);
+                printf(" ");
+
                 e++;
 
                 if (d == 0)//방향

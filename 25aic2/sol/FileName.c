@@ -202,7 +202,7 @@ int main()
                 Sleep(200);
                 moveCursor(a, b);
                 printf("*");
-                Sleep(100);
+                Sleep(200);
                 moveCursor(a, b);
                 printf(" ");
 
